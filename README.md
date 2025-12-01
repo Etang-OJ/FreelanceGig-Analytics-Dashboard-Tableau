@@ -96,46 +96,46 @@ Rehire_Rate
 Marketing_Spend
 
 ## Analytical Approach
-1. Data Importation
+**1. Data Importation**
 
 Imported two separate datasets (Freelancer Details + Job & Earnings Data)
 
 Validate data types for each column
 
-2. Table Join
+**2. Table Join**
 
-Joined tables using Freelancer_ID
+- Joined tables using Freelancer_ID
 
-Performed an inner join
+- Performed an inner join
 
-3. Chart Development
+**3. Chart Development**
 
 Key analysis performed
 
-Earnings by Job Category
+- Earnings by Job Category
 
-Job Success Rate by Platform
+- Job Success Rate by Platform
 
-Hourly Rate vs Experience Level
+- Hourly Rate vs Experience Level
 
-4. Dashboard Creation
+**4. Dashboard Creation**
 
 Includes dashboards for:
 
-Freelancer Performance
+- Freelancer Performance
 
-Earnings Forecasting
+- Earnings Forecasting
 
-5. Recommendations
+**5. Recommendations**
 
-Identified high earning categories
+- Identified high earning categories
 
-Map platforms to experience levels
+- Mapped platforms to experience levels
 
-Provided income scaling recommendations
+- Provided income scaling recommendations
 
 
-## Dashboards Included
+## Included
 
 The Tableau TWBX file contains:
 
