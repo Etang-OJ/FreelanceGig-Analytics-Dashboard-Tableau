@@ -1,157 +1,89 @@
-# FreelanceGig-Analytics-Dashboard
-A comprehensive analysis of the Gig Economy using Tableau.
+# 📊 Freelance Gig Analytics Dashboard (Tableau)
 
-## Project Overview
+## 🧠 Business Problem
 
-The gig economy continues to expand rapidly, with freelancers working across platforms such as Upwork, Fiverr, Freelancer.com, PeoplePerHour, and Toptal. However, freelancers and clients often struggle to understand:
+Freelance platforms operate in a highly competitive environment where understanding performance drivers is critical for growth.
+However, many platforms lack clear visibility into:
 
-Which job categories pay the most
+* Revenue trends
+* Freelancer performance
+* Customer behaviour
+* Category demand
 
-Which platforms offer the best opportunities
+This project aims to analyse freelance gig data to uncover key insights and support **data-driven decisions around platform optimisation and revenue growth**.
 
-How experience level affects earnings
+---
 
-How factors like job success, client rating, and rehire rates influence performance
+## 🎯 Objectives
 
-How to forecast freelancer earnings
+* Analyse revenue and performance trends across the platform
+* Identify high-performing freelancers and categories
+* Understand demand patterns and customer behaviour
+* Build an interactive dashboard to support business decision-making
 
-This project delivers a data-driven Tableau dashboard that provides meaningful insights into freelancer earnings, job performance, and market trends, supporting better decision-making for freelancers, businesses, and policymakers.
+---
 
+## 📁 Dataset
 
-## Project Objectives
+The dataset includes:
 
-✔ Analyze freelancer job trends
-✔ Assess freelancer earnings
-✔ Identify key success factors
-✔ Forecast freelancer earnings
-✔ Develop interactive dashboards for insight discovery 
+* Freelancer activity
+* Job categories
+* Revenue metrics
+* Customer engagement data
 
+---
 
-## Key Insights From the Dashboard
+## 🔍 Key Insights
 
-1. High-Paying Job Categories
-Graphic Design and App Development consistently generate the highest freelancer earnings.
-➡ Beginners should upskill in these categories to maximize early income potential.
+* A small group of top freelancers contributes a significant portion of total revenue
+* Certain job categories show **high demand but limited supply**, indicating growth opportunities
+* Customer repeat behaviour plays a key role in revenue stability
+* Some segments underperform despite high activity, suggesting inefficiencies
 
-2. Platform Performance Depends on Experience Level
+---
 
-Beginners: Toptal offers the strongest rehire rates
+## 📈 Dashboard
 
-Intermediate: Upwork provides the highest intermediate-level earnings and continuity
+The Tableau dashboard provides:
 
-Expert: Fiverr and PeoplePerHour offer top expert pay and hourly rates
+* KPI overview (revenue, activity, performance)
+* Category-level analysis
+* Freelancer performance tracking
+* Interactive filters for deeper exploration
 
-3. Most Profitable Platforms Overall
-Upwork, Fiverr, and Freelancer.com produce the highest total freelancer income.
-➡ Freelancers seeking income scalability should prioritize these platforms.
+<img width="970" height="662" alt="image" src="https://github.com/user-attachments/assets/4a04acff-50b1-41e6-a84f-4696af2feae1" />
 
-4. Best Categories for Fastest Portfolio Growth
-Graphic Design and Web Development have the highest job completion counts, helping freelancers:
 
-Build credibility
+---
 
-Gain visibility
+## 💼 Business Recommendations
 
-Improve rehire potential
+* **Invest in high-demand, low-supply categories** to maximise revenue potential
+* **Improve retention strategies for top-performing freelancers**
+* **Optimise pricing and visibility for underperforming segments**
+* **Encourage repeat customer engagement** to stabilise revenue
 
-## Data Description
-### Table 1 — Freelancer Details
+---
 
-As described in the data dictionary on page 5
+## 🚀 Business Impact
 
-Freelancer_ID
+This analysis can help a freelance platform:
 
-Job_Category
+* Identify growth opportunities
+* Improve revenue distribution
+* Enhance user retention strategies
+* Support data-driven operational decisions
 
-Platform
+---
 
-Experience_Level
+## 🛠️ Tools Used
 
-Client_Region
+* Tableau (Data Visualisation & Dashboarding)
+* Excel / CSV (Data Preparation)
 
-Payment_Method
+---
 
-### Table 2 — Job & Earnings Data
+## 📌 Key Takeaway
 
-From page 6 of Tableau Capstone.pdf:
-
-Freelancer_ID
-
-Jobs_Completed
-
-Earnings_USD
-
-Hourly_Rate
-
-Job_Success_Rate
-
-Client_Rating
-
-Job_Duration_Days
-
-Project_Type
-
-Rehire_Rate
-
-Marketing_Spend
-
-## Analytical Approach
-**1. Data Importation**
-
-Imported two separate datasets (Freelancer Details + Job & Earnings Data)
-
-Validate data types for each column
-
-**2. Table Join**
-
-- Joined tables using Freelancer_ID
-
-- Performed an inner join
-
-**3. Chart Development**
-
-Key analysis performed
-
-- Earnings by Job Category
-
-- Job Success Rate by Platform
-
-- Hourly Rate vs Experience Level
-
-**4. Dashboard Creation**
-
-Includes dashboards for:
-
-- Freelancer Performance
-
-- Earnings Forecasting
-
-**5. Recommendations**
-
-- Identified high earning categories
-
-- Mapped platforms to experience levels
-
-- Provided income scaling recommendations
-
-
-## Included
-
-The Tableau TWBX file contains:
-
-Freelancer Performance Dashboard
-
-Earnings Forecasting Dashboard
-
-KPI summary
-
-Filters & slicers for interactive insights
-
-Category-, platform-, and experience-based analytics
-
-## Deliverables
-
-✔ Data Cleaning & Processing
-✔ Tableau Dashboard (KPIs, slicers, visuals)
-✔ Reporting (PowerPoint + insights)
-
+This project demonstrates how data analysis and visualisation can be used to **translate raw data into actionable business insights**, enabling better strategic decision-making in a platform-based business.
